@@ -1,15 +1,6 @@
 # Workiom Flutter App
 
-A Flutter application implementing the Workiom API integration with MVVM architecture pattern and manual data models for maximum reliability.
-
-## Features
-
-- **Authentication Flow**: Complete sign-up and sign-in process
-- **Edition Selection**: Choose from available subscription plans
-- **Tenant Management**: Create and manage tenant accounts
-- **Clean Architecture**: MVVM pattern with BLoC state management
-- **API Integration**: Full integration with Workiom API endpoints
-- **Manual Data Models**: Reliable, manually-crafted models without code generation issues
+A Flutter application implementing the Workiom API integration with MVVM architecture pattern.
 
 ## Architecture
 
@@ -46,9 +37,8 @@ The app integrates with the following Workiom API endpoints:
 ## Getting Started
 
 ### Prerequisites
-- Flutter SDK (3.9.0 or higher)
-- Dart SDK
-- Android Studio / VS Code
+- Flutter SDK (3.35.1)
+- Dart SDK (3.9.0)
 - Android/iOS device or emulator
 
 ### Installation
@@ -121,37 +111,23 @@ lib/
 
 ### Key Features
 
-- **Manual Data Models**: Reliable, manually-crafted models with default values and proper JSON serialization
 - **Password Validation**: Dynamic password requirements based on server settings
 - **Tenant Availability**: Real-time checking of tenant name availability
 - **Error Handling**: Comprehensive error handling with user-friendly messages
 - **Responsive Design**: Adaptive UI for different screen sizes
 - **State Management**: Reactive UI updates using BLoC pattern
-- **No Code Generation Issues**: Manual models eliminate freezed generation problems
 
 ## API Configuration
 
 The app is configured to work with the Workiom API at:
 - Base URL: `https://api.workiom.club`
 
-## Data Models
-
-The app uses manually-crafted Dart classes instead of code generation tools like Freezed. This approach provides:
-
-- **Reliability**: No code generation issues or compatibility problems
-- **Control**: Full control over JSON serialization and field handling
-- **Performance**: No build-time overhead from code generation
-- **Maintainability**: Clear, readable code that's easy to debug and modify
-- **Default Values**: All fields have sensible default values for null safety
-
 ## Contributing
 
 1. Follow the existing code structure and patterns
 2. Use BLoC for state management
-3. Create manual data models (no Freezed/code generation)
-4. Implement proper error handling
-5. Add appropriate tests
-6. Follow Flutter/Dart best practices
+3. Implement proper error handling
+4. Follow Flutter/Dart best practices
 
 ## License
 
