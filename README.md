@@ -93,6 +93,8 @@ lib/
 - `equatable`: Value equality for state objects
 - `connectivity_plus`: Network connectivity checking
 - `fluttertoast`: Toast notifications
+- `google_fonts`: Custom fonts (Rubik) for clean, consistent typography across the app
+- `flutter_svg`: Display vector SVG assets in UI for crisp icons and illustrations
 
 ### Dev Dependencies
 - `build_runner`: Code generation (for Retrofit only)
